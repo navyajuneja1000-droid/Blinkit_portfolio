@@ -208,45 +208,47 @@ window.NJ = {
 
     {
       id: "h2h", domain: "edtech", skills: ["align", "metrics", "unit"], where: "Cogent Infotech",
-      name: "H2H: 4 teams aligned on one MVP, sign-ups ~65 → ~300",
+      name: "H2H: a pricing pivot, a launch, and 3 teams at 90% on time",
       short: "H2H at Cogent",
       eta: "2 months", status: "Launched", sort: 3,
-      price: { v: "~300", u: "sign-ups in 2 months", strike: "~65", off: "4 teams aligned", prov: "result" },
-      problem: "A pivot with four teams pulling four ways",
-      hook: "A long-cycle ISA product had to become a different, expert-led program. Marketing, Sales, Delivery and Tech each had a different idea of what that meant.",
-      poster: { bg: "#F1ECFF", fg: "#2B1466", accent: "#0C831F", big: "65 → 300", small: "sign-ups in two months" },
+      price: { v: "~$110K", u: "in 2 months", strike: "", off: "90% on time", prov: "result" },
+      problem: "A new pricing model, a launch and three teams to hand off between",
+      hook: "H2H moved from pay-after-placement to upfront pricing, launched in 5 US states, and had to turn every sale into an on-time delivery across 3 teams.",
+      poster: { bg: "#F1ECFF", fg: "#2B1466", accent: "#0C831F", big: "90%", small: "on time across 150+ orders" },
       summary: {
-        problem: "US job seekers were buying point solutions (CV writers, LinkedIn optimisers, interview coaching) and still not getting callbacks. Cogent's long-cycle ISA product was not the answer, and the pivot needed four teams to agree on what to build first.",
-        did: "Drove the pivot to H2H (Human to Human), an expert-led US career-prep program. Ran 60+ customer interviews and benchmarked 15+ competitors to find the unmet need. Defined MVP scope, requirements and customer journeys, and aligned Marketing, Sales, Delivery and Tech on them. Owned GTM planning, success metrics and funnel tracking. Built 3-tier pricing tied to SLAs.",
-        landed: "Sign-ups grew from ~65 to ~300 in two months through funnel-led CTAs on websites, campaigns and brochures, including a free résumé audit added to the website flow with Engineering."
+        problem: "US job seekers were buying point solutions (CV writers, LinkedIn optimisers, interview coaching) and still not getting callbacks. Cogent's pay-after-placement (ISA) model left revenue waiting on each customer's job search.",
+        did: "Pivoted H2H to upfront pricing after 60+ interviews, a payback analysis and 15+ rivals. Built a 5-metric LinkedIn score (0–100) and packaged ~30 features into 3 tiers. Launched to 2 personas in 5 priority US states, ran the funnel experiments, and set the SLAs, SOPs and hand-offs for 3 teams.",
+        landed: "~$110K in 2 months at 6x ROAS. Sign-ups up 4.6×, 8% of 1,500+ sign-ups converted to paid, 22% of $499 buyers upgraded, and 90% of 150+ orders delivered on time."
       },
       pack: [
-        ["Marketing", "Campaigns, CTAs, brochures"],
-        ["Sales", "Pricing tiers and the pitch"],
-        ["Delivery", "What experts commit to, per SLA"],
-        ["Tech / Engineering", "Website flows, the free résumé audit"]
+        ["3 delivery teams", "SLAs, SOPs and hand-offs: 90% on time across 150+ orders"],
+        ["Engineering", "Shipped the free résumé audit used as the lead magnet"],
+        ["Launch", "2 personas, 5 priority US states, ~$110K in 2 months at 6x ROAS"],
+        ["Pricing", "~30 features in 3 tiers, $499 to $1,300"]
       ],
       track: [
-        ["Discovery", "60+ customer interviews, 15+ competitors benchmarked."],
-        ["Scope", "MVP scope, requirements and journeys written down."],
-        ["Aligned", "Marketing, Sales, Delivery and Tech agreed on one MVP."],
-        ["Launched", "Funnel-led CTAs and a free résumé audit in the site flow."],
-        ["Tracked", "~65 → ~300 sign-ups in two months."]
+        ["Discovery", "60+ interviews, a payback analysis, 15+ rivals."],
+        ["Pivot", "Pay-after-placement (ISA) to upfront pricing."],
+        ["Packaged", "~30 features into 3 tiers, anchored by a 0–100 LinkedIn score."],
+        ["Launched", "2 personas, 5 US states: ~$110K in 2 months at 6x ROAS."],
+        ["Delivered", "90% on time across 150+ orders."]
       ],
       metrics: [
-        { v: "~65 → ~300", l: "sign-ups in two months", p: "result" },
-        { v: "60+", l: "customer interviews", p: "result" },
-        { v: "15+", l: "competitors benchmarked", p: "result" },
-        { v: "4 teams", l: "aligned on MVP scope and launch", p: "result" },
-        { v: "$499 / $899 / $1,300", l: "3 tiers, scope tied to SLAs", p: "result" },
-        { v: "~$349K", l: "launch target the tiers were built for", p: "target" }
+        { v: "90%", l: "on-time delivery across 150+ orders, from SLAs, SOPs and hand-offs for 3 teams", p: "result" },
+        { v: "~$110K", l: "in 2 months at 6x ROAS", p: "result" },
+        { v: "4.6×", l: "sign-ups: form drop-off 72% to 45%, 18% of drop-offs recovered via email", p: "result" },
+        { v: "8%", l: "of 1,500+ sign-ups converted to paid via a free résumé audit", p: "result" },
+        { v: "22%", l: "of $499 buyers upgraded across the 3 tiers", p: "result" },
+        { v: "60+", l: "interviews, a payback analysis and 15+ rivals behind the pricing pivot", p: "result" }
       ],
-      blinkit: "Every new program at a company Blinkit's size lands on teams that already have full roadmaps. What got H2H moving was not a bigger plan; it was one written MVP scope that all four teams had signed, and one set of success metrics everyone tracked. That is the first artefact I would produce for any cross-team program.",
+      blinkit: "Every dark store launch is judged after the opening: does the promise hold, order after order? At H2H I set the SLAs, SOPs and hand-offs for 3 teams so that a sold tier became a delivered one, and 90% of 150+ orders went out on time. That is the part of a launch program I would own first.",
       details: [["Role", "Assistant Project Manager, Product Development · Cogent Infotech"], ["When", "Aug 2025 – Jun 2026 · Remote"], ["Domain", "US career-prep, edtech"]],
       sections: [
         { h: "Priced on where the buyer is stuck",
           tiers: [["Interview Accelerator", "$499", "Stuck before the interview"], ["Offer Builder", "$899", "Stuck at conversion"], ["Offer Accelerator", "$1,300", "Stuck at the offer"]],
-          p: "Each tier ties service scope to SLAs, so Delivery knew exactly what Sales was promising." }
+          p: "About 30 features in 3 tiers, each tying service scope to SLAs, so delivery knew exactly what had been sold. A 0–100 LinkedIn score showed each buyer which tier they needed; 22% of $499 buyers upgraded." },
+        { h: "Fixing the funnel",
+          steps: [["The form", "Drop-off cut from 72% to 45%."], ["Email recovery", "18% of people who left the form came back."], ["Lead magnet", "A free résumé audit, shipped with Engineering: 8% of 1,500+ sign-ups went on to pay."]] }
       ]
     },
 
@@ -541,12 +543,12 @@ window.NJ = {
     { id: "intake", t: "Intake", q: "What is actually being asked, and what is missing before work starts?",
       did: [
         ["mid", "Per-acquirer intake checks catch a request that would bounce before it costs a bank cycle."],
-        ["h2h", "60+ customer interviews and 15+ competitors benchmarked before any scope was written."]
+        ["h2h", "60+ interviews, a payback analysis and 15+ rivals before the pricing model changed."]
       ] },
     { id: "plan", t: "Plan", q: "Every stage, every owner, every handoff, on one page.",
       did: [
         ["golive", "MID-to-live mapped as a 10-stage workflow with handoffs across stakeholder teams."],
-        ["h2h", "One written MVP scope that Marketing, Sales, Delivery and Tech signed."],
+        ["h2h", "SLAs, SOPs and hand-offs written for 3 teams: 90% on time across 150+ orders."],
         ["wowworld", "Pilot sized bottom-up in dark stores, with five gates written before launch."]
       ] },
     { id: "phase", t: "Phase", q: "Ship in tranches; the next one waits until the last one holds.",
@@ -653,15 +655,17 @@ window.NJ = {
       id: "cogent", type: "work", org: "Cogent Infotech", logo: "assets/logos/cogent.svg",
       title: "Assistant Project Manager, Product Development", when: "Aug 2025 – Jun 2026", where: "Remote",
       status: "delivered", statusText: "Delivered · Jun 2026",
-      body: "Drove the pivot from a long-cycle ISA product to H2H, an expert-led US career-prep program. Owned discovery, requirements, pricing and the launch plan.",
-      pack: ["Marketing", "Sales", "Delivery", "Tech"],
+      body: "Took H2H, an expert-led US career-prep program, from pay-after-placement (ISA) to upfront pricing, launched it, and set up delivery across 3 teams. Owned discovery, pricing, the launch and delivery.",
+      pack: ["3 delivery teams", "Engineering"],
       bullets: [
-        ["~65 → ~300", "sign-ups in two months through funnel-led CTAs"],
-        ["4 teams", "Marketing, Sales, Delivery and Tech aligned on MVP scope"],
-        ["60+", "customer interviews; 15+ competitors benchmarked"],
-        ["3 tiers", "$499 / $899 / $1,300, scope tied to SLAs"]
+        ["90%", "on-time delivery across 150+ orders: SLAs, SOPs and hand-offs for 3 teams"],
+        ["~$110K", "in 2 months at 6x ROAS, launching to 2 personas in 5 US states"],
+        ["4.6×", "sign-ups: form drop-off 72% to 45%, 18% of drop-offs recovered"],
+        ["8%", "of 1,500+ sign-ups converted to paid via a free résumé audit"],
+        ["22%", "of $499 buyers upgraded across 3 tiers"],
+        ["60+", "interviews, a payback analysis and 15+ rivals behind the pivot to upfront pricing"]
       ],
-      track: [["Joined", "Aug 2025"], ["Discovery", "60+ interviews"], ["Scope aligned", "4 teams"], ["Delivered", "Jun 2026"]],
+      track: [["Joined", "Aug 2025"], ["Pivot", "Upfront pricing"], ["Launch", "~$110K in 2 months"], ["Delivered", "90% on time"]],
       related: ["h2h"]
     },
     {
@@ -724,7 +728,7 @@ window.NJ = {
 
   faq: [
     ["Why Program Manager, and why Blinkit?",
-     "Every case on this page has the same core: many parties, a date, and a process nobody owned end to end. At PhonePe that was merchant go-live and bank migrations; at Cogent, four teams and one MVP; in my own builds, per-party clocks for a four-party process. Blinkit runs that kind of program constantly: stores going live, sellers onboarding, categories launching, rider programs changing. I want to run those."],
+     "Every case on this page has the same core: many parties, a date, and a process nobody owned end to end. At PhonePe that was merchant go-live and bank migrations; at Cogent, three teams and one delivery promise (90% of 150+ orders on time); in my own builds, per-party clocks for a four-party process. Blinkit runs that kind of program constantly: stores going live, sellers onboarding, categories launching, rider programs changing. I want to run those."],
     ["Isn't this mostly payments experience?",
      "Payments was the setting for two years, not the skill. The same work shows up in edtech (H2H), D2C growth (Perfora), an FMCG category launch built on dark stores (WOW! World), a retail venture with a weekly P&L (Found It), consumer research (Prolectro) and ops tooling (MID Procurement, ReconOS)."],
     ["What do the Result / Built / Modelled labels mean?",

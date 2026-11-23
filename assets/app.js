@@ -251,7 +251,7 @@
       ["360", "merchant go-lives in one upload", "golive", "result"],
       ["95% · 3 mo", "traffic migrated in phased shifts with live monitoring", "migration", "result"],
       ["4 + 5+", "network launches and partner integrations, requirements to go-live", "launches", "result"],
-      ["4 teams", "aligned on the H2H MVP scope", "h2h", "result"],
+      ["90% on time", "150+ H2H orders, SLAs for 3 teams", "h2h", "result"],
       ["3 gates", "Perfora roadmap: fix, prove, grow", "perfora", "target"],
       ["5 gates", "WOW! World pilot in 300 dark stores", "wowworld", "target"],
       ["4 clocks", "per-party turnaround in MID Procurement", "mid", "built"],
